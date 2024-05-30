@@ -18,6 +18,7 @@ function passwordCheck(req, res, next) {
   }
   next();
 }
+
 app.use(passwordCheck);
 
 app.get("/", (req, res) => {
